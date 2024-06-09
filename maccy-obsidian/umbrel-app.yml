@@ -7,23 +7,16 @@ tagline: Advanced note taking app
 description: >-
   Obsidian for Umbrel
 releaseNotes: >-
-  Dark mode is finally here! Easily switch between your preferred mode
-  in one click.
-
-  This version also includes lots of minor styling improvements, better
-  error handling, and several bugfixes.
+  Initial release
 developer: Dan Janosik
 website: https://explorer.btc21.org
-dependencies:
+dependencies: []
 repo: https://github.com/janoside/btc-rpc-explorer
 support: https://github.com/janoside/btc-rpc-explorer/discussions
 port: 3002
-gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+gallery: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel/pull/334
+submitter: JJeeff248
+submission: https://github.com/JJeeff248/umbrel-app-store/commit/670040a18f3df7ca4d25141396ff3dec2bdf7aa6
