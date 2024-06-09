@@ -8,12 +8,12 @@ description: >-
   Obsidian for Umbrel
 releaseNotes: >-
   Initial release
-developer: Dan Janosik
-website: https://explorer.btc21.org
+developer: Billy
+website: https://obsidian.md
 dependencies: []
 repo: https://github.com/janoside/btc-rpc-explorer
 support: https://github.com/janoside/btc-rpc-explorer/discussions
-port: 3002
+port: 9879
 gallery: []
 path: ""
 defaultUsername: ""
