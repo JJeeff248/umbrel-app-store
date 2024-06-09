@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: obsidian
+category: files
+name: Obsidian
+version: "0.1.1"
+tagline: Advanced note taking app
+description: >-
+  Obsidian for Umbrel
+releaseNotes: >-
+  Dark mode is finally here! Easily switch between your preferred mode
+  in one click.
+
+  This version also includes lots of minor styling improvements, better
+  error handling, and several bugfixes.
+developer: Dan Janosik
+website: https://explorer.btc21.org
+dependencies:
+repo: https://github.com/janoside/btc-rpc-explorer
+support: https://github.com/janoside/btc-rpc-explorer/discussions
+port: 3002
+gallery:
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel/pull/334

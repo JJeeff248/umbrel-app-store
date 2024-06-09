@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: obsidian_web_1
+      APP_PORT: 9786
+  
+  web:
+    image: ghcr.io/sytone/obsidian-remote:<tag>@sha256:0494ea57446e77609a469caf08a6886f3825f893883bfab2f4736e06d01c19b2
+    restart: on-failure
+    stop_grace_period: 1m
+    volumes:
+      - ${APP_DATA_DIR}/vaults:/vaults
+      - ${APP_DATA_DIR}/config:/config
