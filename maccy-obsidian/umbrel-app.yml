@@ -13,7 +13,7 @@ website: https://obsidian.md
 dependencies: []
 repo: https://github.com/janoside/btc-rpc-explorer
 support: https://github.com/janoside/btc-rpc-explorer/discussions
-port: 9879
+port: 9786
 gallery: []
 path: ""
 defaultUsername: ""
